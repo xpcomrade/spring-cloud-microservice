@@ -15,10 +15,19 @@
     </properties>
 
     <dependencies>
+        <!--使用了Hystrix 来实现断路器的功能-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
+
+        <!--使用了Ribbon 实现客户端的均衡负载-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-ribbon</artifactId>
         </dependency>
+
+        <!--使用了Rureka 实现客户端的服务发现-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
