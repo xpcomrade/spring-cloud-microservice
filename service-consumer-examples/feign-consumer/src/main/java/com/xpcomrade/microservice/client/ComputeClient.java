@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * Copyright (c) 2016, xpcomrade@gmail.com All Rights Reserved.
  * Description: (定义compute-service服务的接口). <br/>
  */
-@FeignClient("compute-service")
+@FeignClient(value = "compute-service", fallback = ComputeClientHystrix.class)
 //使用@FeignClient("compute-service")注解来绑定该接口对应compute-service服务
 public interface ComputeClient {
 
