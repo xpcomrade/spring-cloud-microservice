@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 /**
  * Created by xpcomrade on 2016/12/15.
  * Copyright (c) 2016, xpcomrade@gmail.com All Rights Reserved.
- * Description: TODO(这里用一句话描述这个类的作用). <br/>
+ * Description: (服务注册中心). <br/>
  */
 @EnableEurekaServer
 @SpringBootApplication
