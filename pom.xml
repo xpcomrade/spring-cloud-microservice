@@ -9,6 +9,8 @@
         <module>discovery</module>
         <module>service-provider-examples</module>
         <module>service-consumer-examples</module>
+        <module>config</module>
+        <module>zuul</module>
     </modules>
     <packaging>pom</packaging>
 
